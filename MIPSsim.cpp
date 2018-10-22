@@ -59,7 +59,7 @@ void simulate(char* filename);
 int main(int argc, char* argv[]) {
 
     if(argc == 0){
-        cout << "No input arguement\n";
+        cout << "Usage: ./MIPSsim binaryfile.text\n";
         return 1;
     }
 
